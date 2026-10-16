@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 – Critical-Responsible Use of GenAI for Data Science"
-author: "MEAN MACHINE: Oscar , user 2, Rishon, user 4"
+author: "MEAN MACHINE: Oscar , Nicholas, Rishon, Yutian"
 date: "`r Sys.Date()`"
 output: html_document
 ---
