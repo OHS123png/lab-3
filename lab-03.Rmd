@@ -40,12 +40,15 @@ jan_feb_flights %>%
 
 ```{r}
 # which columns are integer
-
+names(select(jan_feb_flights, where(is.integer)))
 
 # which columns are double
+names(select(jan_feb_flights, where(is.double)))
 
 
 # which columns are character
+names(select(jan_feb_flights, where(is.character)))
+
 
 
 ```
