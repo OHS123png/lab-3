@@ -55,7 +55,7 @@ names(select(jan_feb_flights, where(is.character)))
 
 ```{r}
 # which columns contain NA's
-
+names(select(jan_feb_flights, where(~ any(is.na(.)))))
 ```
 
 **Summary:**  
